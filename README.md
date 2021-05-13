@@ -1,21 +1,29 @@
-# Guia de Instalação do Oracle JDK11
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/36782514/118198660-bb0f5300-b427-11eb-80a2-091c733366e1.png" alt="logo Java" width="240">
+</h1>
+<br>
 
-<p>
-  <a href="#-Baixando-o-pacote-JDK">Baixar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Preparação">Preparação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Teste">Teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Desinstalação">Desinstalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Licença">Conclusão</a>
+<p align="center"><b>Guia de instalação Oracle-JDK-11</b></p>
+
+<p  align="center">
+  <a href="#Baixando-JDK">Baixar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Preparação">Preparação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Teste">Teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Desinstalação">Desinstalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Conclusão">Conclusão</a>
 </p>
 
-## Observações
+<br>
+<br>
+
+## ⚠️ Observações
 
 Este guia foi criado com base na versão **11.0.11** do JDK e no Ubuntu **20.04-lts** e alguns passos podem **não funcionar** em outras distribuições ou mesmo em outras versões do Ubuntu.
 
 Sigua este guia com cuidado se atentando aos detalhes como a versão dos pacotes (**11.0.11 / 11.X.XX**), que podem variar dependendo de quando está vendo este guia.
 
-## Baixando o pacote JDK
+## ☁️ Baixando JDK
 Para esta instalação vamos usar o pacote compactado ``.tar.gz`` disponível no site da Oracle que é o formato mais usado para esta instalação.
 
 [Clique para ir a pagina de download](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
@@ -26,7 +34,7 @@ Nesta página você precisara aceitar os termos de uso, e caso não tenha uma co
 
 Fique atento para baixar o arquivo correto para a arquitetura do seu processador, onde o padrão da maioria é o **X64**.
 
-## Preparação
+## 🛠️ Preparação
 
 Antes de prosseguir com a instalação vamos precisar instalar algumas dependências antes.
 
@@ -55,7 +63,7 @@ sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
 ```
 
-## Instalação
+## ⚙️ Instalação
 Agora que já baixamos o pacote do JDK ele deve se encontrar disponível na sua pasta de **Downloads**. Copie o arquivo para sua pasta pessoal.
 
 Uma vez tendo copiado o arquivo para a sua pasta pessoal abra o terminal ``ctrl + alt + t``, e vamos criar um novo diretório para onde copiaremos novamente o arquivo do JDK.
@@ -89,7 +97,7 @@ sudo apt install oracle-java11-installer-local
 
 Com isso o JDK11 já deve estar instalado e configurado no seu sistema.
 
-## Teste
+## 🧪 Teste
 Caso tenha mais de uma versão do **JDK** instalado pode usar o ``update-alternatives --config`` para alternar entre eles. Este passo pode servir de garantia para saber se o processo de instalação correu bem.
 
 **INPUT:**
@@ -129,7 +137,7 @@ Java(TM) SE Runtime Environment 18.9 (build 11.0.11+9-LTS-194)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.11+9-LTS-194, mixed mode)
 ```
 
-## Desinstalação
+## ❌ Desinstalação
 Se decidir remover o Oracle-JDK-11 instalado por este guia basta desinstalar o pacote ``oracle-java11-installer-local``.
 
 **INPUT:**
@@ -142,6 +150,6 @@ Espero ter ajudado alguém com esse guia e se encontrou algum problema ou tem al
 
 <hr />
 
-### Links
+### 🔗 Links
 [Tutorial refêrencia para criação deste repositório](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04)
 
