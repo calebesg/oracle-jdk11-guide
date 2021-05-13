@@ -8,7 +8,7 @@
 <p  align="center">
   <a href="#-Baixando-JDK">Baixar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Preparação">Preparação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Teste">Teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Desinstalação">Desinstalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Conclusão">Conclusão</a>
@@ -63,7 +63,7 @@ sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
 ```
 
-<a href="Instalação"></a>
+<div id="Instalacao" />
 ## ⚙️ Instalação
 Agora que já baixamos o pacote do JDK ele deve se encontrar disponível na sua pasta de **Downloads**. Copie o arquivo para sua pasta pessoal.
 
