@@ -1,5 +1,14 @@
 # Guia de Instalação do Oracle JDK11
 
+<p>
+  <a href="#-Baixando-o-pacote-JDK">Baixar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Preparação">Preparação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Teste">Teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Desinstalação">Desinstalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Licença">Conclusão</a>
+</p>
+
 ## Observações
 
 Este guia foi criado com base na versão **11.0.11** do JDK e no Ubuntu **20.04-lts** e alguns passos podem **não funcionar** em outras distribuições ou mesmo em outras versões do Ubuntu.
@@ -80,7 +89,7 @@ sudo apt install oracle-java11-installer-local
 
 Com isso o JDK11 já deve estar instalado e configurado no seu sistema.
 
-## Utilitário / Teste
+## Teste
 Caso tenha mais de uma versão do **JDK** instalado pode usar o ``update-alternatives --config`` para alternar entre eles. Este passo pode servir de garantia para saber se o processo de instalação correu bem.
 
 **INPUT:**
@@ -120,7 +129,7 @@ Java(TM) SE Runtime Environment 18.9 (build 11.0.11+9-LTS-194)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.11+9-LTS-194, mixed mode)
 ```
 
-## Desistalação
+## Desinstalação
 Se decidir remover o Oracle-JDK-11 instalado por este guia basta desinstalar o pacote ``oracle-java11-installer-local``.
 
 **INPUT:**
