@@ -6,8 +6,8 @@
 <p align="center"><b>Guia de instalação Oracle-JDK-11</b></p>
 
 <p  align="center">
-  <a href="#-Baixando-JDK">Baixar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Preparação">Preparação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Download">Baixar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Preparacao">Preparação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Teste">Teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Desinstalação">Desinstalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -23,6 +23,8 @@ Este guia foi criado com base na versão **11.0.11** do JDK e no Ubuntu **20.04-
 
 Sigua este guia com cuidado se atentando aos detalhes como a versão dos pacotes (**11.0.11 / 11.X.XX**), que podem variar dependendo de quando está vendo este guia.
 
+<div id="Download" />
+
 ## ☁️ Baixando JDK
 Para esta instalação vamos usar o pacote compactado ``.tar.gz`` disponível no site da Oracle que é o formato mais usado para esta instalação.
 
@@ -33,6 +35,8 @@ Nesta página você precisara aceitar os termos de uso, e caso não tenha uma co
 ![list-jdk](https://user-images.githubusercontent.com/36782514/118189336-03bf1000-b418-11eb-9f71-b575c604e9e6.JPG)
 
 Fique atento para baixar o arquivo correto para a arquitetura do seu processador, onde o padrão da maioria é o **X64**.
+
+<div id="Preparacao" />
 
 ## 🛠️ Preparação
 
@@ -64,6 +68,7 @@ sudo apt update
 ```
 
 <div id="Instalacao" />
+
 ## ⚙️ Instalação
 Agora que já baixamos o pacote do JDK ele deve se encontrar disponível na sua pasta de **Downloads**. Copie o arquivo para sua pasta pessoal.
 
